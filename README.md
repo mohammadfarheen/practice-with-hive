@@ -1,7 +1,7 @@
 # practice-with-hive
 
 ## What is Hiave? 
-Hive is a data warehouse infrastructure tool to process structured data in Hadoop. It resides on top of Hadoop to summarize Big Data, and makes querying and analyzing easy.
+Apache Hive is an open source, data warehousing tool that is built on top of Hadoop system to handle its unstructured, semi structured data.
 
 ## What is Hadoop? 
 Hadoop is an open-source framework to store and process Big Data in a distributed environment. It contains two modules, one is MapReduce and another is Hadoop Distributed File System (HDFS).
@@ -27,6 +27,8 @@ Hive: It is a platform used to develop SQL type scripts to do MapReduce operatio
 * Provides SQL type language for querying called HiveQL or HQL.
 * It is familiar, fast, scalable, and extensible.
 
+## How Does Hive workk? 
+Apache Hive translates the input program written in the HiveQL (SQL-like) language to one or more Java MapReduce, Tez, or Spark jobs. (All of these execution engines can run in Hadoop YARN.) Then Apache Hive organizes the data into tables for the Hadoop Distributed File System HDFS) and runs the jobs on a cluster to produce an answer.
 
 
 
@@ -44,6 +46,9 @@ Hive: It is a platform used to develop SQL type scripts to do MapReduce operatio
 
 
 
-Source: https://www.tutorialspoint.com/hive/hive_introduction.htm 
+
+Sources:
+- https://www.tutorialspoint.com/hive/hive_introduction.htm 
+- https://www.quora.com/How-does-Apache-Hive-work 
 
 
