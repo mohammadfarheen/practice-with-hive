@@ -1,9 +1,9 @@
 # practice-with-hive
 
-## Group members: 
-Farheen Mohammad 
-Azhar Alali 
-Manasa Ginjupalli
+**Group members:**  
+- Farheen Mohammad 
+- Azhar Alali 
+- Manasa Ginjupalli
 
 
 ## What is Hiave? 
