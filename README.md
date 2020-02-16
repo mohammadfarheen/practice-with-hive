@@ -6,7 +6,7 @@
 - Manasa Ginjupalli
 
 
-## What is Hiave? 
+## What is Hive? 
 Apache Hive is an open source, data warehousing tool that is built on top of Hadoop system to handle its unstructured, semi structured data.
 
 ## What is Hadoop? 
