@@ -1,5 +1,11 @@
 # practice-with-hive
 
+## Group members: 
+Farheen Mohammad 
+Azhar Alali 
+Manasa Ginjupalli
+
+
 ## What is Hiave? 
 Apache Hive is an open source, data warehousing tool that is built on top of Hadoop system to handle its unstructured, semi structured data.
 
