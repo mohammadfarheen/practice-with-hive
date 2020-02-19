@@ -41,9 +41,26 @@ Apache Hive translates the input program written in the HiveQL (SQL-like) langua
 - Null Values 
 - Complex Types
 ## Creating Database
-Create Database is a statement used to create a database in Hive.
+  Create Database is a statement used to create a database in Hive.
 ## Syntax
 CREATE DATABASE | SCHEMA [ IF NOT EXISTS ] <database name>
+## Drop Database
+  Drop Database is a statement that drops all the tables and deletes the database
+  ## Syntax
+  
+  DROP  DATABASE StatementDROP ( DATABASE| SCHEMA ) [ IF EXISTS ] <database name>
+  ## Create table Statement
+  Create Table is a statement used to create a table in Hive
+  ## Example
+  hive>Create table if not exists employee (eid int,name String, salary String,destination String)
+Comment ‘Employee details’
+Row FORMAT DELIMITED
+FIELDS TERMINATED BY ‘\t’
+LINES TERMINATED BY ‘\n’
+Stored as text file;
+
+
+
 
 
 
