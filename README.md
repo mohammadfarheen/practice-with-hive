@@ -40,9 +40,9 @@ Apache Hive translates the input program written in the HiveQL (SQL-like) langua
 - Literals 
 - Null Values 
 - Complex Types
-##Creating Database
+## Creating Database
 Create Database is a statement used to create a database in Hive.
-Syntax
+## Syntax
 CREATE DATABASE | SCHEMA [ IF NOT EXISTS ] <database name>
 
 
