@@ -71,11 +71,11 @@ Stored as text file;
   Drop table [if exists] table_name;
 ## Built in aggregate functions
 Hive supports the following built-in aggregate functions
--Sum
--Count
--Max
--Min
--Avg
+- Sum
+- Count
+- Max
+- Min
+- Avg
   
 
 
