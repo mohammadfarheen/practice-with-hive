@@ -35,6 +35,16 @@ Hive: It is a platform used to develop SQL type scripts to do MapReduce operatio
 
 ## How Does Hive workk? 
 Apache Hive translates the input program written in the HiveQL (SQL-like) language to one or more Java MapReduce, Tez, or Spark jobs. (All of these execution engines can run in Hadoop YARN.) Then Apache Hive organizes the data into tables for the Hadoop Distributed File System HDFS) and runs the jobs on a cluster to produce an answer.
+## Datatypes
+- Column Types
+- Literals 
+- Null Values 
+- Complex Types
+##Creating Database
+Create Database is a statement used to create a database in Hive.
+Syntax
+CREATE DATABASE | SCHEMA [ IF NOT EXISTS ] <database name>
+
 
 
 
