@@ -58,6 +58,25 @@ Row FORMAT DELIMITED
 FIELDS TERMINATED BY ‘\t’
 LINES TERMINATED BY ‘\n’
 Stored as text file;
+ ##  Alter  table Statement
+  Alter  is a statement used to alter the table in hive
+  ##Syntax
+  Alter table name rename to new_name;
+
+  
+  ## Drop table Statement
+  Drop is a statemnet used to drop a table in hive
+  
+  ## Syntax
+  Drop table [if exists] table_name;
+## Built in aggregate functions
+Hive supports the following built-in aggregate functions
+-Sum
+-Count
+-Max
+-Min
+-Avg
+  
 
 
 
